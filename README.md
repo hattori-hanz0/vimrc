@@ -1,0 +1,2 @@
+# vimrc
+Konfiguracja edytora Vim
