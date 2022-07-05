@@ -1,0 +1,16 @@
+" konfiguracja vimrc
+
+syntax on
+se hidden
+se number
+se nocp
+se autoread
+se autochdir
+se cmdheight=2
+se bckspace=indent,eol,start
+se whichwrap+=<,>,h,l
+se ignorecase
+se incsearch
+se smartcase
+se smartindent
+se joinspaces
