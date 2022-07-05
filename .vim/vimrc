@@ -30,3 +30,4 @@ nnorwmap <leader>q :q<cr>
 nnoremap <leader>l :echom resolve(expand("%:p"))<cr>
 nnoremap <leader>vs :vsplit<cr>
 nnoremap <leader>sp :split<cr>
+nnoremap <tab> :e #<cr>
