@@ -14,3 +14,19 @@ se incsearch
 se smartcase
 se smartindent
 se joinspaces
+se tabstop=4
+se softtabstop=4
+se shiftwidth=4
+se expandtab
+se smartab
+se numberwidth=5
+se scrolloff=4
+se noshowmode
+se lazyredraw
+
+nnoremap <leader>; :
+nnoremap <leader>d :bd<cr>
+nnorwmap <leader>q :q<cr>
+nnoremap <leader>l :echom resolve(expand("%:p"))<cr>
+nnoremap <leader>vs :vsplit<cr>
+nnoremap <leader>sp :split<cr>
