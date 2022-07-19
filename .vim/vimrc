@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 " konfiguracja vimrc
 
 syntax on
@@ -8,16 +9,47 @@ se autoread
 se autochdir
 se cmdheight=2
 se bckspace=indent,eol,start
+=======
+colo ayu
+syntax on
+se number
+" se relativenumber
+se hidden
+se nocompatible
+se pumheight=10
+se autoread
+se autochdir
+se cmdheight=2
+se backspace=indent,eol,start
+se completeopt=menuone,noselect
+>>>>>>> 7a05338 (2022-07-19-07:58:19)
 se whichwrap+=<,>,h,l
 se ignorecase
 se incsearch
 se smartcase
 se smartindent
 se joinspaces
+<<<<<<< HEAD
+=======
+se list
+se listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮     " ↲
+se listchars=nbsp:⦸
+se listchars+=tab:▸\ ,
+se listchars+=extends:»
+se listchars+=precedes:«
+se listchars+=trail:•
+se listchars+=eol:¬
+se fillchars+=vert:\
+se showbreak = "↪"
+se numberwidth=5
+se scrolloff=4
+se sidescrolloff=8
+>>>>>>> 7a05338 (2022-07-19-07:58:19)
 se tabstop=4
 se softtabstop=4
 se shiftwidth=4
 se expandtab
+<<<<<<< HEAD
 se smartab
 se numberwidth=5
 se scrolloff=4
@@ -31,3 +63,67 @@ nnoremap <leader>l :echom resolve(expand("%:p"))<cr>
 nnoremap <leader>vs :vsplit<cr>
 nnoremap <leader>sp :split<cr>
 nnoremap <tab> :e #<cr>
+=======
+se shiftround
+se noshowmode
+se smarttab
+se lazyredraw
+se wildmenu
+se wildmode=longest:full,full
+se complete+=kspell
+se timeoutlen=500
+se timeout
+se ttimeout
+se ttimeoutlen=500
+se updatetime=300
+se nobackup
+se nowritebackup
+se noswapfile
+se undofile
+se undodir=~/.vim/undodir
+se undolevels=3333
+se path-=/usr/include
+se path+=**
+se fillchars+="eob=' '"
+se laststatus=3
+se splitright
+se splitbelow
+se clipboard+=unnamedplus
+se termguicolors
+se background=dark
+se t_Co=256
+se ttyfast
+se mouse=a
+se wrapscan
+se laststatus=2
+se textwidth=100
+se colorcolumn=+1
+se cursorline
+" se wrap
+" se nolinebreak
+" se term=xterm-256colors
+" se linebreak
+"
+" let ayucolor="dark"
+" let ayucolor="light"
+" let ayucolor="mirage"
+
+if has("nvim")
+    se viminfo='100,n$HOME/.config/nvim/viminfo/viminfo
+    se viewdir=$HOME/.config/nvim/view
+    se directory=~/.config/nvim/swap//         " dir
+else
+    se viminfo+=n$HOME/.vim/viminfo/viminfo
+    se viewdir=$HOME/.vim/view
+    se directory=~/.vim/swap//                 " dir
+    se cm=blowfish2
+    " se key=tajne_hasło
+endif
+se viewoptions-=options
+
+" augroup HelpMap
+    " autocmd!
+    autocmd! BufEnter,WinEnter,Filetype sh nnoremap K yiW:!man <c-r>"<cr>
+    autocmd! BufEnter,WinEnter,Filetype vim nnoremap K yiW:help <c-r>"<cr>
+" augroup END
+>>>>>>> 7a05338 (2022-07-19-07:58:19)
