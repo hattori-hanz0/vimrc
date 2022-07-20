@@ -1,15 +1,5 @@
-<<<<<<< HEAD
 " konfiguracja vimrc
 
-syntax on
-se hidden
-se number
-se nocp
-se autoread
-se autochdir
-se cmdheight=2
-se bckspace=indent,eol,start
-=======
 colo ayu
 syntax on
 se number
@@ -22,15 +12,12 @@ se autochdir
 se cmdheight=2
 se backspace=indent,eol,start
 se completeopt=menuone,noselect
->>>>>>> 7a05338 (2022-07-19-07:58:19)
 se whichwrap+=<,>,h,l
 se ignorecase
 se incsearch
 se smartcase
 se smartindent
 se joinspaces
-<<<<<<< HEAD
-=======
 se list
 se listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮     " ↲
 se listchars=nbsp:⦸
@@ -44,12 +31,10 @@ se showbreak = "↪"
 se numberwidth=5
 se scrolloff=4
 se sidescrolloff=8
->>>>>>> 7a05338 (2022-07-19-07:58:19)
 se tabstop=4
 se softtabstop=4
 se shiftwidth=4
 se expandtab
-<<<<<<< HEAD
 se smartab
 se numberwidth=5
 se scrolloff=4
